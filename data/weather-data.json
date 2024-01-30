@@ -1,0 +1,2326 @@
+{
+    "@context": [
+        "https://geojson.org/geojson-ld/geojson-context.jsonld",
+        {
+            "@version": "1.1",
+            "wx": "https://api.weather.gov/ontology#",
+            "@vocab": "https://api.weather.gov/ontology#"
+        }
+    ],
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.003.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.9599999,
+                            37.920000000000002
+                        ],
+                        [
+                            -87.859999999999999,
+                            37.969999999999999
+                        ],
+                        [
+                            -87.829999999999998,
+                            37.939999999999998
+                        ],
+                        [
+                            -87.819999899999999,
+                            37.909999899999995
+                        ],
+                        [
+                            -87.840000000000003,
+                            37.799999999999997
+                        ],
+                        [
+                            -87.9599999,
+                            37.920000000000002
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.003.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.003.1",
+                "areaDesc": "Posey, IN; Vanderburgh, IN; Henderson, KY; Union, KY",
+                "geocode": {
+                    "SAME": [
+                        "018129",
+                        "018163",
+                        "021101",
+                        "021225"
+                    ],
+                    "UGC": [
+                        "INC129",
+                        "INC163",
+                        "KYC101",
+                        "KYC225"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC129",
+                    "https://api.weather.gov/zones/county/INC163",
+                    "https://api.weather.gov/zones/county/KYC101",
+                    "https://api.weather.gov/zones/county/KYC225"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.004.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.004.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T10:30:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:37:00-06:00",
+                "effective": "2024-01-30T10:37:00-06:00",
+                "onset": "2024-01-31T06:00:00-06:00",
+                "expires": "2024-01-31T12:45:00-06:00",
+                "ends": "2024-02-05T16:30:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Paducah KY",
+                "headline": "Flood Warning issued January 30 at 10:37AM CST until February 5 at 4:30PM CST by NWS Paducah KY",
+                "description": "...The Flood Warning continues for the following rivers in\nKentucky...Illinois...Indiana...\n\nOhio River at Newburgh Dam, Mount Vernon, J.T. Myers Dam and\nShawneetown.\n\n\nAdditional information is available at www.weather.gov/pah.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Ohio River at Mount Vernon.\n\n* WHEN...From Wednesday morning to Monday afternoon.\n\n* ADDITIONAL DETAILS...\n- At 6:00 AM CST Tuesday the stage was 34.6 feet.\n- Bankfull stage is 35.0 feet.\n- Forecast...The river is expected to rise above flood stage\ntomorrow morning to a crest of 36.1 feet early Friday\nafternoon. It will then fall below flood stage late Monday\nmorning.\n- Flood stage is 35.0 feet.",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSPAH"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KPAH 301637"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT FROM WEDNESDAY MORNING TO MONDAY AFTERNOON"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KPAH.FL.W.0004.240131T1200Z-240205T2230Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-05T22:30:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f0ca74534ce89e60c76491d6ecf6b69c71c70be3.003.1,2024-01-28T11:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6754d8e5de24e0c8a40a8d103d5114a873646f53.003.1,2024-01-27T12:38:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.450000000000003,
+                            38.009999999999998
+                        ],
+                        [
+                            -87.2099999,
+                            37.899999999999999
+                        ],
+                        [
+                            -87.280000000000001,
+                            37.799999999999997
+                        ],
+                        [
+                            -87.450000000000003,
+                            37.869999999999997
+                        ],
+                        [
+                            -87.450000000000003,
+                            38.009999999999998
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.002.1",
+                "areaDesc": "Spencer, IN; Vanderburgh, IN; Warrick, IN; Daviess, KY; Henderson, KY",
+                "geocode": {
+                    "SAME": [
+                        "018147",
+                        "018163",
+                        "018173",
+                        "021059",
+                        "021101"
+                    ],
+                    "UGC": [
+                        "INC147",
+                        "INC163",
+                        "INC173",
+                        "KYC059",
+                        "KYC101"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC147",
+                    "https://api.weather.gov/zones/county/INC163",
+                    "https://api.weather.gov/zones/county/INC173",
+                    "https://api.weather.gov/zones/county/KYC059",
+                    "https://api.weather.gov/zones/county/KYC101"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T10:30:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:37:00-06:00",
+                "effective": "2024-01-30T10:37:00-06:00",
+                "onset": "2024-01-30T10:37:00-06:00",
+                "expires": "2024-01-31T12:45:00-06:00",
+                "ends": "2024-02-05T19:48:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Paducah KY",
+                "headline": "Flood Warning issued January 30 at 10:37AM CST until February 5 at 7:48PM CST by NWS Paducah KY",
+                "description": "...The Flood Warning continues for the following rivers in\nKentucky...Illinois...Indiana...\n\nOhio River at Newburgh Dam, Mount Vernon, J.T. Myers Dam and\nShawneetown.\n\n\nAdditional information is available at www.weather.gov/pah.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Ohio River at Newburgh Dam.\n\n* WHEN...Until Monday evening.\n\n* ADDITIONAL DETAILS...\n- At 10:00 AM CST Tuesday the stage was 39.2 feet.\n- Bankfull stage is 35.0 feet.\n- Forecast...The river is expected to rise to a crest of 41.2\nfeet Friday evening. It will then fall below flood stage\nearly Monday afternoon.\n- Flood stage is 38.0 feet.",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSPAH"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KPAH 301637"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL MONDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KPAH.FL.W.0001.000000T0000Z-240206T0148Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-06T01:48:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d9f18c67a0a9338ecf3f27a4a460e1f83997a0f8.001.1,2024-01-28T11:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.43725040f8076b62001038d6419ce551bae17d66.001.1,2024-01-27T12:23:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f75a7e7c9cb1801dcf242e91c655fa4fe10c5074.001.1,2024-01-26T10:44:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.004.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -88.109999999999999,
+                            37.780000000000001
+                        ],
+                        [
+                            -87.9599999,
+                            37.920000000000002
+                        ],
+                        [
+                            -87.840000000000003,
+                            37.800000000000004
+                        ],
+                        [
+                            -88,
+                            37.729999900000003
+                        ],
+                        [
+                            -88.109999999999999,
+                            37.780000000000001
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.004.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.92a1394b61f5d386190ace778e1efd39829181f5.004.1",
+                "areaDesc": "Posey, IN; Union, KY",
+                "geocode": {
+                    "SAME": [
+                        "018129",
+                        "021225"
+                    ],
+                    "UGC": [
+                        "INC129",
+                        "KYC225"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC129",
+                    "https://api.weather.gov/zones/county/KYC225"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.054e7b29466f696df5897f7fe44242d81f668f3c.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T10:30:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:37:00-06:00",
+                "effective": "2024-01-30T10:37:00-06:00",
+                "onset": "2024-01-31T08:00:00-06:00",
+                "expires": "2024-01-31T12:45:00-06:00",
+                "ends": "2024-02-06T09:00:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Paducah KY",
+                "headline": "Flood Warning issued January 30 at 10:37AM CST until February 6 at 9:00AM CST by NWS Paducah KY",
+                "description": "...The Flood Warning continues for the following rivers in\nKentucky...Illinois...Indiana...\n\nOhio River at Newburgh Dam, Mount Vernon, J.T. Myers Dam and\nShawneetown.\n\n\nAdditional information is available at www.weather.gov/pah.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Ohio River at J.T. Myers Dam.\n\n* WHEN...From Wednesday morning to Tuesday, February 06.\n\n* ADDITIONAL DETAILS...\n- At 10:00 AM CST Tuesday the stage was 35.5 feet.\n- Bankfull stage is 37.0 feet.\n- Forecast...The river is expected to rise above flood stage\ntomorrow morning to a crest of 38.6 feet early Saturday\nafternoon. It will then fall below flood stage Tuesday,\nFebruary 06.\n- Flood stage is 37.0 feet.",
+                "instruction": null,
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSPAH"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KPAH 301637"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT FROM WEDNESDAY MORNING TO TUESDAY, FEBRUARY 06"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KPAH.FL.W.0003.240131T1400Z-240206T1500Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-06T15:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f0ca74534ce89e60c76491d6ecf6b69c71c70be3.002.1,2024-01-28T11:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.6754d8e5de24e0c8a40a8d103d5114a873646f53.002.1,2024-01-27T12:38:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.489999999999995,
+                            40.859999999999999
+                        ],
+                        [
+                            -87.269999999999996,
+                            40.939999999999998
+                        ],
+                        [
+                            -87.22999999999999,
+                            40.849999999999994
+                        ],
+                        [
+                            -87.459999899999985,
+                            40.769999999999996
+                        ],
+                        [
+                            -87.489999999999995,
+                            40.859999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.001.1",
+                "areaDesc": "Newton, IN",
+                "geocode": {
+                    "SAME": [
+                        "018111"
+                    ],
+                    "UGC": [
+                        "INC111"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC111"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T19:50:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:08:00-06:00",
+                "effective": "2024-01-30T10:08:00-06:00",
+                "onset": "2024-01-30T10:08:00-06:00",
+                "expires": "2024-01-30T16:15:00-06:00",
+                "ends": "2024-01-30T16:07:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Chicago IL",
+                "headline": "Flood Warning issued January 30 at 10:08AM CST until January 30 at 4:07PM CST by NWS Chicago IL",
+                "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nIroquois River near Foresman affecting Newton County.\n\nIroquois River at Iroquois affecting Newton and Iroquois Counties.\n\n\n\nFor the Iroquois River...including Rensselaer, Foresman, Iroquois,\nChebanse...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring.\n\n* WHERE...Iroquois River from Near I-65 east of Foresman downstream\nto near US-41 north of Kentland, including the Foresman gauge.\n\n* WHEN...Until late this afternoon.\n\n* IMPACTS...At 18.0 feet, Widespread inundation of low-lying\nagricultural areas.\n\n* ADDITIONAL DETAILS...\n- At 9:45 AM CST Tuesday the stage was 18.0 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:45 AM CST Tuesday was 18.4 feet.\n- Forecast...The river is expected to fall below flood stage\nlate this morning and continue falling to 12.2 feet Tuesday,\nFebruary 06.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "A Flood Warning means water levels above flood stage are imminent or\nmay already be occurring. Persons along rivers and streams in the\nwarned area should take immediate precautions to protect life and\nproperty.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued this afternoon at 415 PM CST.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSLOT"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KLOT 301608"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL LATE THIS AFTERNOON"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KLOT.FL.W.0013.000000T0000Z-240130T2207Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-01-30T22:07:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57fde14d3e390c2e210c8435b62c86a3b4d08335.002.1,2024-01-29T09:08:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee3c3655311e3055fbc12351f192e81d52c10165.003.1,2024-01-28T20:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9ba5fe7342d64e8efc39e04108493cebfe2c3f2.001.1,2024-01-28T08:35:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2872f0bd6bd54606d8c41837628064af10f50ff3.001.1,2024-01-27T20:17:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.1f4faf3fc75e09a0702da5bbd5dd901fe3d039a9.001.1,2024-01-27T07:56:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.739999999999995,
+                            40.840000000000003
+                        ],
+                        [
+                            -87.489999999999995,
+                            40.860000000000007
+                        ],
+                        [
+                            -87.4599999,
+                            40.770000000000003
+                        ],
+                        [
+                            -87.790000000000006,
+                            40.760000000000005
+                        ],
+                        [
+                            -87.739999999999995,
+                            40.840000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.987da3fce61e7d5f43d0a0acaa11f20081889cc3.002.1",
+                "areaDesc": "Iroquois, IL; Newton, IN",
+                "geocode": {
+                    "SAME": [
+                        "017075",
+                        "018111"
+                    ],
+                    "UGC": [
+                        "ILC075",
+                        "INC111"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/ILC075",
+                    "https://api.weather.gov/zones/county/INC111"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T19:50:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:08:00-06:00",
+                "effective": "2024-01-30T10:08:00-06:00",
+                "onset": "2024-01-30T10:08:00-06:00",
+                "expires": "2024-01-31T04:15:00-06:00",
+                "ends": "2024-02-01T07:30:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Chicago IL",
+                "headline": "Flood Warning issued January 30 at 10:08AM CST until February 1 at 7:30AM CST by NWS Chicago IL",
+                "description": "...The Flood Warning continues for the following rivers in Indiana...\nIllinois...\n\nIroquois River near Foresman affecting Newton County.\n\nIroquois River at Iroquois affecting Newton and Iroquois Counties.\n\n\n\nFor the Iroquois River...including Rensselaer, Foresman, Iroquois,\nChebanse...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Iroquois River from Near US-41 downstream to confluence\nwith Sugar Creek at Watseka, including the Iroquois gauge.\n\n* WHEN...Until Thursday morning.\n\n* IMPACTS...At 18.0 feet, Agricultural areas near the river begin to\nflood.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM CST Tuesday the stage was 19.4 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:00 AM CST Tuesday was 19.7 feet.\n- Forecast...The river is expected to rise to a crest of 19.4\nfeet this afternoon. It will then fall below flood stage\nearly Thursday morning.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "A Flood Warning means water levels above flood stage are imminent or\nmay already be occurring. Persons along rivers and streams in the\nwarned area should take immediate precautions to protect life and\nproperty.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued this afternoon at 415 PM CST.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSLOT"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KLOT 301608"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL THURSDAY MORNING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KLOT.FL.W.0008.000000T0000Z-240201T1330Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-01T13:30:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.57fde14d3e390c2e210c8435b62c86a3b4d08335.001.1,2024-01-29T09:08:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee3c3655311e3055fbc12351f192e81d52c10165.004.1,2024-01-28T20:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f9ba5fe7342d64e8efc39e04108493cebfe2c3f2.002.1,2024-01-28T08:35:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2872f0bd6bd54606d8c41837628064af10f50ff3.003.1,2024-01-27T20:17:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.87c173087295bb22d7be1562d327f6bc36270965.001.1,2024-01-27T10:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d012a96223e5b770a68cd97eb6f768341a34618f.002.1,2024-01-26T18:53:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9da17e3484fca7404720801343235624e3eb704f.001.1,2024-01-26T10:29:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.926751aef35a6aa0a82e96adeb19a5aca52e120f.001.1,2024-01-25T21:15:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98ad98ba9a70f6176980a39c8c08abcfaf53fd0e.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.560000000000002,
+                            41.219999999999999
+                        ],
+                        [
+                            -87.280000000000001,
+                            41.280000000000001
+                        ],
+                        [
+                            -87.25,
+                            41.170000000000002
+                        ],
+                        [
+                            -87.530000000000001,
+                            41.109999999999999
+                        ],
+                        [
+                            -87.560000000000002,
+                            41.219999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.98ad98ba9a70f6176980a39c8c08abcfaf53fd0e.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.98ad98ba9a70f6176980a39c8c08abcfaf53fd0e.001.1",
+                "areaDesc": "Lake, IN; Newton, IN",
+                "geocode": {
+                    "SAME": [
+                        "018089",
+                        "018111"
+                    ],
+                    "UGC": [
+                        "INC089",
+                        "INC111"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC089",
+                    "https://api.weather.gov/zones/county/INC111"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.004.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.71f31a1da560db1d3ad52ac796548b3b9e8600d2.004.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T19:50:00-06:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:05:00-06:00",
+                "effective": "2024-01-30T10:05:00-06:00",
+                "onset": "2024-01-30T10:05:00-06:00",
+                "expires": "2024-01-31T04:15:00-06:00",
+                "ends": "2024-02-03T00:00:00-06:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Chicago IL",
+                "headline": "Flood Warning issued January 30 at 10:05AM CST until February 3 at 12:00AM CST by NWS Chicago IL",
+                "description": "...The Flood Warning continues for the following rivers in Indiana...\n\nKankakee River at Shelby affecting Newton and Lake IN Counties.\n\n\n\nFor the Kankakee River...including Dunns Bridge, Shelby, Momence,\nWilmington...Minor flooding is forecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Kankakee River from Near I-65 and De Motte downstream to\nIL/IN state line, including the Shelby gauge.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 10.5 feet, Water overflows low-lying river banks\nalong Bluegrass Road and in Wildwood Estates east of Sumava\nResorts.\n\n* ADDITIONAL DETAILS...\n- At 9:45 AM CST Tuesday the stage was 10.6 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:45 AM CST Tuesday was 10.6 feet.\n- Forecast...The river is expected to rise to a crest of 10.8\nfeet tomorrow evening. It will then fall below flood stage\nFriday evening.\n- Flood stage is 10.5 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "A Flood Warning means water levels above flood stage are imminent or\nmay already be occurring. Persons along rivers and streams in the\nwarned area should take immediate precautions to protect life and\nproperty.\n\nAdditional information is available at www.weather.gov.\n\nThe next statement will be issued late tonight at 415 AM CST.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSLOT"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KLOT 301605"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL EARLY SATURDAY MORNING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KLOT.FL.W.0005.000000T0000Z-240203T0600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-03T06:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.7fd0a1bfd03645b21124a89194df74945cb0725c.001.1,2024-01-29T09:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ee3c3655311e3055fbc12351f192e81d52c10165.005.1,2024-01-28T20:02:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.073e20daeabcd43f9185351ba020e0ac53e7ebf2.002.1,2024-01-28T09:07:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.2872f0bd6bd54606d8c41837628064af10f50ff3.004.1,2024-01-27T20:17:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.87c173087295bb22d7be1562d327f6bc36270965.005.1,2024-01-27T10:30:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d012a96223e5b770a68cd97eb6f768341a34618f.003.1,2024-01-26T18:53:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b1870df0bab6aac29d12b4a246dfe3856fa575bb.001.1,2024-01-26T14:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4fa445635ec7d7463c10b9f58bcc325f7e7c1db3.001.1,2024-01-26T09:24:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.926751aef35a6aa0a82e96adeb19a5aca52e120f.002.1,2024-01-25T21:15:00-06:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.e47693b977338c7adcdb5099a4dc16458edf4f61.001.1,2024-01-25T09:52:00-06:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.579999999999998,
+                            41.090000000000003
+                        ],
+                        [
+                            -86.599999999999994,
+                            41.159999900000003
+                        ],
+                        [
+                            -86.559999999999988,
+                            41.170000000000002
+                        ],
+                        [
+                            -86.529999999999987,
+                            41.170000000000002
+                        ],
+                        [
+                            -86.569999899999985,
+                            41.149999999999999
+                        ],
+                        [
+                            -86.549999999999983,
+                            41.079999999999998
+                        ],
+                        [
+                            -86.579999999999998,
+                            41.090000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.001.1",
+                "areaDesc": "Fulton, IN; Kosciusko, IN; Marshall, IN; Pulaski, IN; Starke, IN",
+                "geocode": {
+                    "SAME": [
+                        "018049",
+                        "018085",
+                        "018099",
+                        "018131",
+                        "018149"
+                    ],
+                    "UGC": [
+                        "INC049",
+                        "INC085",
+                        "INC099",
+                        "INC131",
+                        "INC149"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC049",
+                    "https://api.weather.gov/zones/county/INC085",
+                    "https://api.weather.gov/zones/county/INC099",
+                    "https://api.weather.gov/zones/county/INC131",
+                    "https://api.weather.gov/zones/county/INC149"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.df2a6ff719358e26fd857e9b085ab25ab860b766.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.df2a6ff719358e26fd857e9b085ab25ab860b766.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-30T08:54:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:40:00-05:00",
+                "effective": "2024-01-30T10:40:00-05:00",
+                "onset": "2024-01-30T10:40:00-05:00",
+                "expires": "2024-01-31T04:45:00-05:00",
+                "ends": "2024-02-01T19:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Northern Indiana",
+                "headline": "Flood Warning issued January 30 at 10:40AM EST until February 1 at 7:00PM EST by NWS Northern Indiana",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...Ohio...\n\nTippecanoe River near Ora affecting Starke, Fulton IN, Pulaski,\nMarshall and Kosciusko Counties.\n\nSaint Joseph River Ohio below Montpelier affecting Williams\nCounty.\n\nTiffin River at Stryker affecting Defiance, Fulton OH and\nWilliams Counties.\n\n...The Flood Warning continues for the following rivers in Indiana...\nOhio...Michigan...\n\nSaint Joseph River Ohio near Newville affecting Allen IN,\nDefiance and De Kalb Counties.\n\nSaint Joseph River Michigan at Three Rivers affecting St. Joseph\nMI, Elkhart and Branch Counties.\n\n\n\n.Rises on area rivers occurred as a result of recent rainfall and\nrunoff from recent snowmelt.\n\nFor the Tippecanoe River...including Ora...Minor flooding is\nforecast.\nFor the Saint Joseph River Ohio...including Montpelier, Newville,\nSt. Joe River Ft. Wayne...Moderate flooding is forecast.\nFor the Tiffin River...including Stryker...Minor flooding is\nforecast.\nFor the Saint Joseph River Michigan...including Three Rivers,\nMottville, Elkhart IN, South Bend, Niles...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Tippecanoe River near Ora.\n\n* WHEN...Until Thursday evening.\n\n* IMPACTS...At 12.0 feet, The river is at flood stage...significant\nlowland and rural flooding begins.\n\n* ADDITIONAL DETAILS...\n- At 9:45 AM EST Tuesday /8:45 AM CST Tuesday/ the stage was\n11.9 feet.\n- Forecast...The river is expected to rise above flood stage\nthis afternoon to a crest of 12.1 feet this evening. It will\nthen fall below flood stage tomorrow evening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nDetailed river forecasts and additional information can be found at\nwww.weather.gov/iwx under Rivers and Lakes.\n\nThe next statement will be issued late tonight at 445 AM EST /345 AM\nCST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIWX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIWX 301540"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL THURSDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIWX.FL.W.0006.000000T0000Z-240202T0000Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-02T00:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.01b63fcb3603f0af7ee97e8ab2b1845793ac89e5.001.1,2024-01-29T15:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c956b3e582bff25693c708c4ac959b57495d549e.002.1,2024-01-29T11:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f3ec40e4cad9c208bd8ea84541c7f49e961e4d67.001.1,2024-01-28T20:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fc10b59ab2d204ae8d8cc45f660c4a46fd4c03ad.001.1,2024-01-28T13:20:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9461ff88bfbd318eb8b0f828ecd31eb6b60fcf52.005.1,2024-01-27T21:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a72cc91ec1d4758a7019edcc80f4df4962cb2ae3.002.1,2024-01-27T21:26:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.005.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -85.680000000000007,
+                            41.859999999999999
+                        ],
+                        [
+                            -85.640000000000001,
+                            41.969999999999999
+                        ],
+                        [
+                            -85.540000000000006,
+                            41.969999999999999
+                        ],
+                        [
+                            -85.540000000000006,
+                            41.960000000000001
+                        ],
+                        [
+                            -85.609999999999999,
+                            41.93
+                        ],
+                        [
+                            -85.659999999999997,
+                            41.839999999999996
+                        ],
+                        [
+                            -85.680000000000007,
+                            41.859999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.005.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.005.1",
+                "areaDesc": "Elkhart, IN; Branch, MI; St. Joseph, MI",
+                "geocode": {
+                    "SAME": [
+                        "018039",
+                        "026023",
+                        "026149"
+                    ],
+                    "UGC": [
+                        "INC039",
+                        "MIC023",
+                        "MIC149"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC039",
+                    "https://api.weather.gov/zones/county/MIC023",
+                    "https://api.weather.gov/zones/county/MIC149"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b06b224108f92128cd0bf2907f6a039b49aa285a.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.b06b224108f92128cd0bf2907f6a039b49aa285a.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T20:35:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:40:00-05:00",
+                "effective": "2024-01-30T10:40:00-05:00",
+                "onset": "2024-01-30T10:40:00-05:00",
+                "expires": "2024-01-31T04:45:00-05:00",
+                "ends": "2024-02-02T19:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Northern Indiana",
+                "headline": "Flood Warning issued January 30 at 10:40AM EST until February 2 at 7:00PM EST by NWS Northern Indiana",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...Ohio...\n\nTippecanoe River near Ora affecting Starke, Fulton IN, Pulaski,\nMarshall and Kosciusko Counties.\n\nSaint Joseph River Ohio below Montpelier affecting Williams\nCounty.\n\nTiffin River at Stryker affecting Defiance, Fulton OH and\nWilliams Counties.\n\n...The Flood Warning continues for the following rivers in Indiana...\nOhio...Michigan...\n\nSaint Joseph River Ohio near Newville affecting Allen IN,\nDefiance and De Kalb Counties.\n\nSaint Joseph River Michigan at Three Rivers affecting St. Joseph\nMI, Elkhart and Branch Counties.\n\n\n\n.Rises on area rivers occurred as a result of recent rainfall and\nrunoff from recent snowmelt.\n\nFor the Tippecanoe River...including Ora...Minor flooding is\nforecast.\nFor the Saint Joseph River Ohio...including Montpelier, Newville,\nSt. Joe River Ft. Wayne...Moderate flooding is forecast.\nFor the Tiffin River...including Stryker...Minor flooding is\nforecast.\nFor the Saint Joseph River Michigan...including Three Rivers,\nMottville, Elkhart IN, South Bend, Niles...Minor flooding is\nforecast.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Saint Joseph River Michigan at Three Rivers.\n\n* WHEN...Until Friday evening.\n\n* IMPACTS...At 7.0 feet, Expect minor flooding of the Scidmore Park\npicnic facilities in Three Rivers.\n\n* ADDITIONAL DETAILS...\n- At 7:45 PM EST Monday the stage was 7.2 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 7:45 PM EST Monday was 7.2 feet.\n- Forecast...The river is expected to fall below flood stage\nThursday evening and continue falling to 5.9 feet Monday\nevening.\n- Flood stage is 7.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nDetailed river forecasts and additional information can be found at\nwww.weather.gov/iwx under Rivers and Lakes.\n\nThe next statement will be issued late tonight at 445 AM EST /345 AM\nCST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIWX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIWX 301540"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING REMAINS IN EFFECT UNTIL FRIDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.CON.KIWX.FL.W.0007.000000T0000Z-240203T0000Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-03T00:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c956b3e582bff25693c708c4ac959b57495d549e.001.1,2024-01-29T11:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9b9891cbe9aa325c55a3406a2224b3f3b27b1d75.002.1,2024-01-28T20:16:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ca2c94c3cd122c6910d8ddabf8b965ac69d36e8c.002.1,2024-01-28T13:25:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9461ff88bfbd318eb8b0f828ecd31eb6b60fcf52.006.1,2024-01-27T21:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.a72cc91ec1d4758a7019edcc80f4df4962cb2ae3.003.1,2024-01-27T21:26:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -84.980000000000004,
+                            41.259999999999998
+                        ],
+                        [
+                            -84.810000000000002,
+                            41.399999999999999
+                        ],
+                        [
+                            -84.780000000000001,
+                            41.390000000000001
+                        ],
+                        [
+                            -84.930000000000007,
+                            41.229999900000003
+                        ],
+                        [
+                            -84.980000000000004,
+                            41.259999999999998
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.c14b92892b7b4c7a87a49e445c9225d1427038ef.002.1",
+                "areaDesc": "Allen, IN; De Kalb, IN; Defiance, OH",
+                "geocode": {
+                    "SAME": [
+                        "018003",
+                        "018033",
+                        "039039"
+                    ],
+                    "UGC": [
+                        "INC003",
+                        "INC033",
+                        "OHC039"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC003",
+                    "https://api.weather.gov/zones/county/INC033",
+                    "https://api.weather.gov/zones/county/OHC039"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.b06b224108f92128cd0bf2907f6a039b49aa285a.004.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.b06b224108f92128cd0bf2907f6a039b49aa285a.004.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T20:35:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:40:00-05:00",
+                "effective": "2024-01-30T10:40:00-05:00",
+                "onset": "2024-01-30T10:40:00-05:00",
+                "expires": "2024-01-31T04:45:00-05:00",
+                "ends": "2024-02-04T22:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Northern Indiana",
+                "headline": "Flood Warning issued January 30 at 10:40AM EST until February 4 at 10:00PM EST by NWS Northern Indiana",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...Ohio...\n\nTippecanoe River near Ora affecting Starke, Fulton IN, Pulaski,\nMarshall and Kosciusko Counties.\n\nSaint Joseph River Ohio below Montpelier affecting Williams\nCounty.\n\nTiffin River at Stryker affecting Defiance, Fulton OH and\nWilliams Counties.\n\n...The Flood Warning continues for the following rivers in Indiana...\nOhio...Michigan...\n\nSaint Joseph River Ohio near Newville affecting Allen IN,\nDefiance and De Kalb Counties.\n\nSaint Joseph River Michigan at Three Rivers affecting St. Joseph\nMI, Elkhart and Branch Counties.\n\n\n\n.Rises on area rivers occurred as a result of recent rainfall and\nrunoff from recent snowmelt.\n\nFor the Tippecanoe River...including Ora...Minor flooding is\nforecast.\nFor the Saint Joseph River Ohio...including Montpelier, Newville,\nSt. Joe River Ft. Wayne...Moderate flooding is forecast.\nFor the Tiffin River...including Stryker...Minor flooding is\nforecast.\nFor the Saint Joseph River Michigan...including Three Rivers,\nMottville, Elkhart IN, South Bend, Niles...Minor flooding is\nforecast.\n\n* WHAT...Moderate flooding is occurring and moderate flooding is\nforecast.\n\n* WHERE...Saint Joseph River Ohio near Newville.\n\n* WHEN...Until late Sunday evening.\n\n* IMPACTS...At 14.0 feet, Significant flooding occurs on DeKalb\nCounty Road 42 about 3 miles northeast of Newville. Considerable\nagricultural and low land flooding occurs along the St. Joseph\nRiver to the Cedarville Reservoir.\n\n* ADDITIONAL DETAILS...\n- At 8:15 PM EST Monday the stage was 14.1 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:15 PM EST Monday was 14.1 feet.\n- Forecast...The river is expected to fall to 12.0 feet\nSaturday evening.\n- Flood stage is 12.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nDetailed river forecasts and additional information can be found at\nwww.weather.gov/iwx under Rivers and Lakes.\n\nThe next statement will be issued late tonight at 445 AM EST /345 AM\nCST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIWX"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIWX 301540"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL LATE SUNDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIWX.FL.W.0004.000000T0000Z-240205T0300Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-05T03:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.c956b3e582bff25693c708c4ac959b57495d549e.005.1,2024-01-29T11:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b20b04ca1fff92f8bd9819fb7b81f922c3bfe50d.001.1,2024-01-29T07:06:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d23dcc3aec2c233ff7ece96ee85789c3babf1402.002.1,2024-01-28T20:34:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8680401460d4f772e2d95f11a5b3915095c33020.001.1,2024-01-28T14:43:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b4627b60c8a8fbefcb19fed4dee762a0bc21bea8.002.1,2024-01-28T13:18:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9461ff88bfbd318eb8b0f828ecd31eb6b60fcf52.002.1,2024-01-27T21:37:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b22a7f85eec535f1f8cd35cfd6c08bff1298f5a1.001.1,2024-01-27T16:12:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b1e99f87ed83196204bf82f0106e8e7bdc5e6d8a.002.1,2024-01-27T12:03:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f8af2ba6d51055160207df90650538f4704806f3.003.1,2024-01-26T21:44:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.570358b152488b8da5ca45007b2c63abae450660.002.1,2024-01-26T17:21:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.120000000000005,
+                            38.850000000000001
+                        ],
+                        [
+                            -87.230000000000004,
+                            38.770000000000003
+                        ],
+                        [
+                            -87.230000000000004,
+                            38.550000000000004
+                        ],
+                        [
+                            -87.260000000000005,
+                            38.550000000000004
+                        ],
+                        [
+                            -87.290000000000006,
+                            38.790000000000006
+                        ],
+                        [
+                            -87.150000000000006,
+                            38.870000000000005
+                        ],
+                        [
+                            -87.120000000000005,
+                            38.850000000000001
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.002.1",
+                "areaDesc": "Daviess, IN; Gibson, IN; Knox, IN; Pike, IN",
+                "geocode": {
+                    "SAME": [
+                        "018027",
+                        "018051",
+                        "018083",
+                        "018125"
+                    ],
+                    "UGC": [
+                        "INC027",
+                        "INC051",
+                        "INC083",
+                        "INC125"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC027",
+                    "https://api.weather.gov/zones/county/INC051",
+                    "https://api.weather.gov/zones/county/INC083",
+                    "https://api.weather.gov/zones/county/INC125"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:42:00-05:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-30T09:59:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:12:00-05:00",
+                "effective": "2024-01-30T10:12:00-05:00",
+                "onset": "2024-01-30T10:12:00-05:00",
+                "expires": "2024-01-31T01:15:00-05:00",
+                "ends": "2024-02-01T23:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 10:12AM EST until February 1 at 11:00PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...\n\nWhite River from Edwardsport to Hazleton.\n\n.Minor river flooding is expected to develop on lower parts of the\nWhite River today and end late this week and weekend.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White River at Edwardsport.\n\n* WHEN...Until late Thursday evening.\n\n* IMPACTS...At 15.0 feet, Flooding of low agricultural fields\nbegin.  Daviess CR 375 WN and North River Rd in Knox County\nlocated inside the levees are flooded.\n\n* ADDITIONAL DETAILS...\n- At 7:00 AM EST Tuesday /6:00 AM CST Tuesday/ the stage was\n14.9 feet.\n- Forecast...The river is expected to rise above flood stage\nthis afternoon to a crest of 15.4 feet early tomorrow\nafternoon. It will then fall below flood stage late Thursday\nmorning.\n- Flood stage is 15.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 115 AM\nEST /1215 AM CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301512 CCA"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL LATE THURSDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.COR.KIND.FL.W.0012.000000T0000Z-240202T0400Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-02T04:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f78192706e5b032c126694a9d5d4456b83a0f097.002.1,2024-01-29T11:31:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.008.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f69b687d1e3ab8b0bf14464f7f881ef57217f5a7.002.1,2024-01-28T15:21:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.003.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.219999999999999,
+                            38.520000000000003
+                        ],
+                        [
+                            -87.289999999999992,
+                            38.5
+                        ],
+                        [
+                            -87.439999999999998,
+                            38.509999999999998
+                        ],
+                        [
+                            -87.439999999999998,
+                            38.539999999999999
+                        ],
+                        [
+                            -87.359999999999999,
+                            38.549999999999997
+                        ],
+                        [
+                            -87.290000000000006,
+                            38.529999999999994
+                        ],
+                        [
+                            -87.230000000000004,
+                            38.559999999999995
+                        ],
+                        [
+                            -87.219999999999999,
+                            38.520000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.003.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.003.1",
+                "areaDesc": "Daviess, IN; Gibson, IN; Knox, IN; Pike, IN",
+                "geocode": {
+                    "SAME": [
+                        "018027",
+                        "018051",
+                        "018083",
+                        "018125"
+                    ],
+                    "UGC": [
+                        "INC027",
+                        "INC051",
+                        "INC083",
+                        "INC125"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC027",
+                    "https://api.weather.gov/zones/county/INC051",
+                    "https://api.weather.gov/zones/county/INC083",
+                    "https://api.weather.gov/zones/county/INC125"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.004.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.004.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:42:00-05:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-30T09:59:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:12:00-05:00",
+                "effective": "2024-01-30T10:12:00-05:00",
+                "onset": "2024-01-30T10:12:00-05:00",
+                "expires": "2024-01-31T01:15:00-05:00",
+                "ends": "2024-02-03T01:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 10:12AM EST until February 3 at 1:00AM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...\n\nWhite River from Edwardsport to Hazleton.\n\n.Minor river flooding is expected to develop on lower parts of the\nWhite River today and end late this week and weekend.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White River at Petersburg.\n\n* WHEN...Until early Saturday morning.\n\n* IMPACTS...At 16.0 feet, Flooding affects agricultural lands.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM EST Tuesday /8:30 AM CST Tuesday/ the stage was\n15.8 feet.\n- Forecast...The river will rise above flood stage late this\nafternoon to 17.1 feet early tomorrow afternoon. It will then\nfall below flood stage late Friday morning.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 115 AM\nEST /1215 AM CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301512 CCA"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL EARLY SATURDAY MORNING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.COR.KIND.FL.W.0010.000000T0000Z-240203T0600Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-03T06:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f78192706e5b032c126694a9d5d4456b83a0f097.004.1,2024-01-29T11:31:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.008.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.009.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.8acb5643152162ca77ab6957e8e7041a53b37209.001.1,2024-01-27T22:27:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.439999999999998,
+                            38.509999999999998
+                        ],
+                        [
+                            -87.599999999999994,
+                            38.439999999999998
+                        ],
+                        [
+                            -87.72999999999999,
+                            38.409999899999995
+                        ],
+                        [
+                            -87.72999999999999,
+                            38.429999999999993
+                        ],
+                        [
+                            -87.549999999999983,
+                            38.519999999999996
+                        ],
+                        [
+                            -87.439999999999984,
+                            38.539999999999999
+                        ],
+                        [
+                            -87.439999999999998,
+                            38.509999999999998
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.ec8d4f791bb8a2f4c13ba3486f68b542f69a3a75.001.1",
+                "areaDesc": "Gibson, IN; Knox, IN",
+                "geocode": {
+                    "SAME": [
+                        "018051",
+                        "018083"
+                    ],
+                    "UGC": [
+                        "INC051",
+                        "INC083"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC051",
+                    "https://api.weather.gov/zones/county/INC083"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.ca046fde70dc187955d313ab5fbfb045902d14c5.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:42:00-05:00"
+                    },
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.5dcdd19aa03f68450e74b0e83484e0798d6f4b58.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-30T09:59:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T10:12:00-05:00",
+                "effective": "2024-01-30T10:12:00-05:00",
+                "onset": "2024-01-30T10:12:00-05:00",
+                "expires": "2024-01-31T01:15:00-05:00",
+                "ends": "2024-02-03T10:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 10:12AM EST until February 3 at 10:00AM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning is extended for the following rivers in\nIndiana...\n\nWhite River from Edwardsport to Hazleton.\n\n.Minor river flooding is expected to develop on lower parts of the\nWhite River today and end late this week and weekend.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...White River at Hazleton.\n\n* WHEN...Until late Saturday morning.\n\n* IMPACTS...At 16.0 feet, Flooding begins in lowest bottomlands and\na few local roads.  High water affects a few low oil fields.\n\n* ADDITIONAL DETAILS...\n- There is no current observed data.\n- Forecast...It will rise to 16.4 feet tomorrow morning. It\nwill fall below flood stage late Friday evening.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 115 AM\nEST /1215 AM CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301512 CCA"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL LATE SATURDAY MORNING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.COR.KIND.FL.W.0016.000000T0000Z-240203T1500Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-03T15:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.f78192706e5b032c126694a9d5d4456b83a0f097.003.1,2024-01-29T11:31:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.013.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.0906441a272059baaf125386e68ee7100be4a90d.004.1,2024-01-28T21:30:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.007.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -86.700000000000003,
+                            40.539999999999999
+                        ],
+                        [
+                            -86.88000000000001,
+                            40.399999999999999
+                        ],
+                        [
+                            -87.090000000000003,
+                            40.329999999999998
+                        ],
+                        [
+                            -87.090000000000003,
+                            40.399999999999999
+                        ],
+                        [
+                            -86.88000000000001,
+                            40.479999899999996
+                        ],
+                        [
+                            -86.730000000000004,
+                            40.559999999999995
+                        ],
+                        [
+                            -86.700000000000003,
+                            40.539999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.007.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.007.1",
+                "areaDesc": "Fountain, IN; Parke, IN; Tippecanoe, IN; Vermillion, IN; Warren, IN",
+                "geocode": {
+                    "SAME": [
+                        "018045",
+                        "018121",
+                        "018157",
+                        "018165",
+                        "018171"
+                    ],
+                    "UGC": [
+                        "INC045",
+                        "INC121",
+                        "INC157",
+                        "INC165",
+                        "INC171"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC045",
+                    "https://api.weather.gov/zones/county/INC121",
+                    "https://api.weather.gov/zones/county/INC157",
+                    "https://api.weather.gov/zones/county/INC165",
+                    "https://api.weather.gov/zones/county/INC171"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.007.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.007.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-04T13:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 4 at 1:00PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wabash River at Lafayette.\n\n* WHEN...Until early Sunday afternoon.\n\n* IMPACTS...At 16.0 feet, Lowland flooding is in progress. Flood\nwaters near SR 225 between Old SR 25 and Battleground. Warren CR\n350 N near Black Rock Preserve and Tippecanoe CR 950 W in the\nWabash Bottoms, Janssen Tract area may be impassable. Fort\nOuiatenon grounds begin to flood. Flooding at the Grandville\nPublic Access site.\n\n* ADDITIONAL DETAILS...\n- At 8:30 AM EST Tuesday the stage was 16.4 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:30 AM EST Tuesday was 17.1 feet.\n- Forecast...The river is expected to fall below flood stage\nearly Sunday morning and continue falling and remain below\nflood stage.\n- Flood stage is 11.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL EARLY SUNDAY AFTERNOON"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0002.000000T0000Z-240204T1800Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-04T18:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.007.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.007.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.007.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.007.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.007.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.007.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.005.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d2e440c850ee3b750b2405a79e0df0062d945838.001.1,2024-01-26T06:22:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.007.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.002.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dba67ecb7af41367aa5997dabe886c1aa90f5d16.001.1,2024-01-25T11:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.4b4556ad4850297f068da5625f90ee5d8365a673.001.1,2024-01-25T08:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9954f87ec1be7d4b816fe369084cf2d99e74e7ee.001.1,2024-01-24T15:00:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.001.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.349999999999994,
+                            39.770000000000003
+                        ],
+                        [
+                            -87.359999999999999,
+                            39.670000000000002
+                        ],
+                        [
+                            -87.359999999999999,
+                            39.600000000000001
+                        ],
+                        [
+                            -87.409999999999997,
+                            39.600000000000001
+                        ],
+                        [
+                            -87.420000000000002,
+                            39.659999900000003
+                        ],
+                        [
+                            -87.400000000000006,
+                            39.770000000000003
+                        ],
+                        [
+                            -87.349999999999994,
+                            39.770000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.001.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.001.1",
+                "areaDesc": "Parke, IN; Vermillion, IN; Vigo, IN",
+                "geocode": {
+                    "SAME": [
+                        "018121",
+                        "018165",
+                        "018167"
+                    ],
+                    "UGC": [
+                        "INC121",
+                        "INC165",
+                        "INC167"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC121",
+                    "https://api.weather.gov/zones/county/INC165",
+                    "https://api.weather.gov/zones/county/INC167"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.001.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.001.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-04T19:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 4 at 7:00PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Wabash River at Clinton.\n\n* WHEN...Until Sunday evening.\n\n* IMPACTS...At 22.0 feet, Low areas of River Park at Clinton flood.\nHigher county roads and bottomlands begin to flood.\n\n* ADDITIONAL DETAILS...\n- There is no current observed data.\n- Forecast...The river is expected to fall below flood stage\nSunday morning and continue falling and remain below flood\nstage.\n- Flood stage is 18.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL SUNDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0008.000000T0000Z-240205T0000Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-05T00:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.001.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.001.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.001.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.001.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.001.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.001.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.007.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.006.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.007.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fdcda055f81592da87c013984cde83de1d726140.004.1,2024-01-25T11:02:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.005.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.090000000000003,
+                            40.329999999999998
+                        ],
+                        [
+                            -87.370000000000005,
+                            40.170000000000002
+                        ],
+                        [
+                            -87.390000000000001,
+                            39.969999999999999
+                        ],
+                        [
+                            -87.450000000000003,
+                            39.969999999999999
+                        ],
+                        [
+                            -87.469999999999999,
+                            40.199999999999996
+                        ],
+                        [
+                            -87.090000000000003,
+                            40.399999999999999
+                        ],
+                        [
+                            -87.090000000000003,
+                            40.329999999999998
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.005.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.005.1",
+                "areaDesc": "Fountain, IN; Parke, IN; Vermillion, IN; Warren, IN",
+                "geocode": {
+                    "SAME": [
+                        "018045",
+                        "018121",
+                        "018165",
+                        "018171"
+                    ],
+                    "UGC": [
+                        "INC045",
+                        "INC121",
+                        "INC165",
+                        "INC171"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC045",
+                    "https://api.weather.gov/zones/county/INC121",
+                    "https://api.weather.gov/zones/county/INC165",
+                    "https://api.weather.gov/zones/county/INC171"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.005.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.005.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-04T22:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 4 at 10:00PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wabash River at Covington.\n\n* WHEN...Until late Sunday evening.\n\n* IMPACTS...At 21.0 feet, Lanes to river residences west of South\nRiver Road south of Covington flooded.  Sandhill Road at Mud Run\njust northeast of Covington begins to flood.  Extensive lowland\nflooding in progress.  Higher bottomlands flood.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM EST Tuesday the stage was 21.9 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:45 AM EST Tuesday was 21.9 feet.\n- Forecast...The river is expected to fall below flood stage\nlate Sunday morning and continue falling and remain below\nflood stage.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL LATE SUNDAY EVENING"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0004.000000T0000Z-240205T0300Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-05T03:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.005.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.005.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.005.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.005.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.005.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.005.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.003.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.001.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.003.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dba67ecb7af41367aa5997dabe886c1aa90f5d16.003.1,2024-01-25T11:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9954f87ec1be7d4b816fe369084cf2d99e74e7ee.003.1,2024-01-24T15:00:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.006.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.390000000000001,
+                            39.969999999999999
+                        ],
+                        [
+                            -87.340000000000003,
+                            39.859999999999999
+                        ],
+                        [
+                            -87.359999999999999,
+                            39.769999999999996
+                        ],
+                        [
+                            -87.400000000000006,
+                            39.769999999999996
+                        ],
+                        [
+                            -87.410000000000011,
+                            39.849999999999994
+                        ],
+                        [
+                            -87.450000000000017,
+                            39.969999999999992
+                        ],
+                        [
+                            -87.390000000000001,
+                            39.969999999999999
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.006.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.006.1",
+                "areaDesc": "Parke, IN; Vermillion, IN; Vigo, IN",
+                "geocode": {
+                    "SAME": [
+                        "018121",
+                        "018165",
+                        "018167"
+                    ],
+                    "UGC": [
+                        "INC121",
+                        "INC165",
+                        "INC167"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/INC121",
+                    "https://api.weather.gov/zones/county/INC165",
+                    "https://api.weather.gov/zones/county/INC167"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.006.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.006.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-06T06:15:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 6 at 6:15AM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wabash River at Montezuma.\n\n* WHEN...Until Tuesday, February 06.\n\n* IMPACTS...At 24.0 feet, Floodwater is near the top of all\nagricultural levees.  Some county roads are impassable.  High\nwater isolates a few rural residents.  Basement flooding begins\nalong Water Street in Montezuma.  Medusa Aggregates Company Plant\nNumber 9 begins to flood.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM EST Tuesday the stage was 22.4 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 8:45 AM EST Tuesday was 22.5 feet.\n- Forecast...The river is expected to fall below flood stage\nMonday evening and continue falling and remain below flood\nstage.\n- Flood stage is 14.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY, FEBRUARY 06"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0003.000000T0000Z-240206T1115Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-06T11:15:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.006.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.006.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.006.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.006.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.006.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.006.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.004.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.002.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.001.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.dba67ecb7af41367aa5997dabe886c1aa90f5d16.002.1,2024-01-25T11:02:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9954f87ec1be7d4b816fe369084cf2d99e74e7ee.002.1,2024-01-24T15:00:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.002.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.359999999999999,
+                            39.600000000000001
+                        ],
+                        [
+                            -87.400000000000006,
+                            39.43
+                        ],
+                        [
+                            -87.569999899999999,
+                            39.299999999999997
+                        ],
+                        [
+                            -87.629999999999995,
+                            39.32
+                        ],
+                        [
+                            -87.469999999999999,
+                            39.450000000000003
+                        ],
+                        [
+                            -87.409999999999997,
+                            39.600000000000001
+                        ],
+                        [
+                            -87.359999999999999,
+                            39.600000000000001
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.002.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.002.1",
+                "areaDesc": "Clark, IL; Crawford, IL; Sullivan, IN; Vigo, IN",
+                "geocode": {
+                    "SAME": [
+                        "017023",
+                        "017033",
+                        "018153",
+                        "018167"
+                    ],
+                    "UGC": [
+                        "ILC023",
+                        "ILC033",
+                        "INC153",
+                        "INC167"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/ILC023",
+                    "https://api.weather.gov/zones/county/ILC033",
+                    "https://api.weather.gov/zones/county/INC153",
+                    "https://api.weather.gov/zones/county/INC167"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.002.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.002.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-06T20:12:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 6 at 8:12PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wabash River at Terre Haute.\n\n* WHEN...Until Tuesday, February 06.\n\n* IMPACTS...At 22.0 feet, Pottsville Street just northwest of Terre\nHaute is flooded.  Lowland flooding in progress with several river\nroads flooded in Clark County Illinois.\n\n* ADDITIONAL DETAILS...\n- At 9:30 AM EST Tuesday /8:30 AM CST Tuesday/ the stage was\n21.7 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:30 AM EST Tuesday /8:30 AM CST Tuesday/ was 21.7\nfeet.\n- Forecast...The river is expected to rise to a crest of 22.2\nfeet tomorrow morning. It will then fall below flood stage\nTuesday, February 06.\n- Flood stage is 16.5 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL TUESDAY, FEBRUARY 06"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0007.000000T0000Z-240207T0112Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-07T01:12:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.002.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.002.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.002.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.002.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.002.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.002.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.001.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.003.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.005.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fdcda055f81592da87c013984cde83de1d726140.003.1,2024-01-25T11:02:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.008.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.5,
+                            38.869999999999997
+                        ],
+                        [
+                            -87.4599999,
+                            38.739999999999995
+                        ],
+                        [
+                            -87.640000000000001,
+                            38.459999999999994
+                        ],
+                        [
+                            -87.780000000000001,
+                            38.469999999999992
+                        ],
+                        [
+                            -87.560000000000002,
+                            38.709999999999994
+                        ],
+                        [
+                            -87.560000000000002,
+                            38.859999999999992
+                        ],
+                        [
+                            -87.5,
+                            38.869999999999997
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.008.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.008.1",
+                "areaDesc": "Lawrence, IL; Wabash, IL; Knox, IN",
+                "geocode": {
+                    "SAME": [
+                        "017101",
+                        "017185",
+                        "018083"
+                    ],
+                    "UGC": [
+                        "ILC101",
+                        "ILC185",
+                        "INC083"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/ILC101",
+                    "https://api.weather.gov/zones/county/ILC185",
+                    "https://api.weather.gov/zones/county/INC083"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.008.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.008.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-31T14:30:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-08T12:24:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 8 at 12:24PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Wabash River at Vincennes.\n\n* WHEN...From Wednesday afternoon to Thursday, February 08.\n\n* IMPACTS...At 18.0 feet, Agricultural lands and some oil fields\nflood.  Several township roads about 1.25 miles south of St.\nFrancesville and River Road between Billett Road and Lincoln\nMemorial Bridge in Lawrence County are flooded.  Extensive\nflooding of Kimmell Park at Vincennes.\n\n* ADDITIONAL DETAILS...\n- At 8:45 AM EST Tuesday /7:45 AM CST Tuesday/ the stage was\n14.9 feet.\n- Forecast...The river is expected to rise above flood stage\nearly tomorrow afternoon to a crest of 18.3 feet Sunday\nevening. It will then fall below flood stage Thursday,\nFebruary 08.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT FROM WEDNESDAY AFTERNOON TO THURSDAY, FEBRUARY 08"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0017.240131T1930Z-240208T1724Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-08T17:24:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.008.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d602178babc5dfee724432f629f351d21020d167.001.1,2024-01-29T11:20:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.004.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.569999899999999,
+                            39.299999999999997
+                        ],
+                        [
+                            -87.539999999999992,
+                            39.229999899999996
+                        ],
+                        [
+                            -87.61999999999999,
+                            39.119999999999997
+                        ],
+                        [
+                            -87.679999999999993,
+                            39.140000000000001
+                        ],
+                        [
+                            -87.61999999999999,
+                            39.219999999999999
+                        ],
+                        [
+                            -87.629999999999995,
+                            39.32
+                        ],
+                        [
+                            -87.569999899999999,
+                            39.299999999999997
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.004.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.004.1",
+                "areaDesc": "Crawford, IL; Lawrence, IL; Knox, IN; Sullivan, IN",
+                "geocode": {
+                    "SAME": [
+                        "017033",
+                        "017101",
+                        "018083",
+                        "018153"
+                    ],
+                    "UGC": [
+                        "ILC033",
+                        "ILC101",
+                        "INC083",
+                        "INC153"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/ILC033",
+                    "https://api.weather.gov/zones/county/ILC101",
+                    "https://api.weather.gov/zones/county/INC083",
+                    "https://api.weather.gov/zones/county/INC153"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.004.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.004.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-08T18:15:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 8 at 6:15PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is forecast.\n\n* WHERE...Wabash River at Hutsonville Legacy Power Plant Site.\n\n* WHEN...Until Thursday, February 08.\n\n* IMPACTS...At 20.0 feet, Leaverton Park in Palestine and park in\nHutsonville begin to flood.  Agricultural flooding spreads to\nhigher land.  Seep water is noticeable behind levees.  Some\nelevated river cottages are surrounded by water.  Several county\nor township roads east of Lincoln Heritage Trail between Palestine\nand Hutsonville in Crawford County Illinois are impassable.\n\n* ADDITIONAL DETAILS...\n- There is no current observed data.\n- Forecast...The river is expected to rise to a crest of 21.0\nfeet early Friday afternoon. It will then fall below flood\nstage Thursday, February 08.\n- Flood stage is 16.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL THURSDAY, FEBRUARY 08"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0005.000000T0000Z-240208T2315Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-08T23:15:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.004.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.004.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.004.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.004.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.004.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.004.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.002.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.004.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.004.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fdcda055f81592da87c013984cde83de1d726140.001.1,2024-01-25T11:02:00-05:00"
+                    ]
+                }
+            }
+        },
+        {
+            "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.003.1",
+            "type": "Feature",
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [
+                    [
+                        [
+                            -87.609999999999999,
+                            39.130000000000003
+                        ],
+                        [
+                            -87.480000000000004,
+                            38.990000000000002
+                        ],
+                        [
+                            -87.5,
+                            38.859999999999999
+                        ],
+                        [
+                            -87.560000000000002,
+                            38.850000000000001
+                        ],
+                        [
+                            -87.590000000000003,
+                            38.979999900000003
+                        ],
+                        [
+                            -87.670000000000002,
+                            39.130000000000003
+                        ],
+                        [
+                            -87.609999999999999,
+                            39.130000000000003
+                        ]
+                    ]
+                ]
+            },
+            "properties": {
+                "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.003.1",
+                "@type": "wx:Alert",
+                "id": "urn:oid:2.49.0.1.840.0.78ee6a70d59a7b5df2647ed4133d4fd7808b8249.003.1",
+                "areaDesc": "Crawford, IL; Lawrence, IL; Knox, IN; Sullivan, IN",
+                "geocode": {
+                    "SAME": [
+                        "017033",
+                        "017101",
+                        "018083",
+                        "018153"
+                    ],
+                    "UGC": [
+                        "ILC033",
+                        "ILC101",
+                        "INC083",
+                        "INC153"
+                    ]
+                },
+                "affectedZones": [
+                    "https://api.weather.gov/zones/county/ILC033",
+                    "https://api.weather.gov/zones/county/ILC101",
+                    "https://api.weather.gov/zones/county/INC083",
+                    "https://api.weather.gov/zones/county/INC153"
+                ],
+                "references": [
+                    {
+                        "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.003.1",
+                        "identifier": "urn:oid:2.49.0.1.840.0.30c00799f431d25d60f117a897d58c70d83e41ad.003.1",
+                        "sender": "w-nws.webmaster@noaa.gov",
+                        "sent": "2024-01-29T21:40:00-05:00"
+                    }
+                ],
+                "sent": "2024-01-30T09:51:00-05:00",
+                "effective": "2024-01-30T09:51:00-05:00",
+                "onset": "2024-01-30T09:51:00-05:00",
+                "expires": "2024-01-31T01:00:00-05:00",
+                "ends": "2024-02-08T21:00:00-05:00",
+                "status": "Actual",
+                "messageType": "Update",
+                "category": "Met",
+                "severity": "Severe",
+                "certainty": "Observed",
+                "urgency": "Immediate",
+                "event": "Flood Warning",
+                "sender": "w-nws.webmaster@noaa.gov",
+                "senderName": "NWS Indianapolis IN",
+                "headline": "Flood Warning issued January 30 at 9:51AM EST until February 8 at 9:00PM EST by NWS Indianapolis IN",
+                "description": "...The Flood Warning continues for the following river in Indiana...\nIllinois...\n\nWabash River from Lafayette to Vincennes.\n\n.Lowland flooding continues along the Wabash River from Lafayette to\nRiverton, and will arrive at Vincennes Wednesday morning. The crest\nis currently near Clinton. Flooding is expected to continue along\nthe lower Wabash at Riverton and Vincennes well into next week.\n\n* WHAT...Minor flooding is occurring and minor flooding is forecast.\n\n* WHERE...Wabash River at Riverton.\n\n* WHEN...Until Thursday, February 08.\n\n* IMPACTS...At 20.0 feet, Extensive flooding is in progress.  Higher\nrural roads begin to flood.  High water isolates many river\ncabins.  Seep water becomes a problem.\n\n* ADDITIONAL DETAILS...\n- At 9:00 AM EST Tuesday /8:00 AM CST Tuesday/ the stage was\n17.5 feet.\n- Recent Activity...The maximum river stage in the 24 hours\nending at 9:00 AM EST Tuesday /8:00 AM CST Tuesday/ was 17.5\nfeet.\n- Forecast...The river is expected to rise to a crest of 19.8\nfeet early Saturday morning. It will then fall below flood\nstage Thursday, February 08.\n- Flood stage is 15.0 feet.\n- http://www.weather.gov/safety/flood",
+                "instruction": "Motorists should not attempt to drive around barricades or drive\ncars through flooded areas.\n\nAdditional information is available at www.weather.gov/ind.\n\nThe next statement should be issued late tonight by around 100 AM\nEST /midnight CST/.",
+                "response": "Avoid",
+                "parameters": {
+                    "AWIPSidentifier": [
+                        "FLSIND"
+                    ],
+                    "WMOidentifier": [
+                        "WGUS83 KIND 301451"
+                    ],
+                    "NWSheadline": [
+                        "FLOOD WARNING NOW IN EFFECT UNTIL THURSDAY, FEBRUARY 08"
+                    ],
+                    "BLOCKCHANNEL": [
+                        "EAS",
+                        "NWEM",
+                        "CMAS"
+                    ],
+                    "EAS-ORG": [
+                        "WXR"
+                    ],
+                    "VTEC": [
+                        "/O.EXT.KIND.FL.W.0006.000000T0000Z-240209T0200Z/"
+                    ],
+                    "eventEndingTime": [
+                        "2024-02-09T02:00:00+00:00"
+                    ],
+                    "expiredReferences": [
+                        "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.613e245777da5b9dfb4388e15a86dc180934ccf3.003.1,2024-01-29T11:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.d191f8ee2578ceb4be7e2c37f162d045b92e870e.003.1,2024-01-28T12:57:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.58749139f018c58e9d6d627f9087bd1bc4904a90.003.1,2024-01-28T21:42:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.82209614abf230c51e6a37694eac5e83698877fe.003.1,2024-01-27T22:27:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.28258ed4669d67fa6033c7ca08f058b1daa1052a.003.1,2024-01-27T11:40:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.ac6e49e1b9af50e16b194b6288f7816e7c77a103.003.1,2024-01-26T22:09:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.b576747892dae5377e68505ea75accc94d7c58b1.006.1,2024-01-26T11:29:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.276e00f0e8a18d17d25cd9f4c953c2bdecc718e8.005.1,2024-01-26T00:07:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.af5a8ecf004baaf5ffba7c749f4de2dd32e6cb8e.006.1,2024-01-25T14:41:00-05:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.fdcda055f81592da87c013984cde83de1d726140.002.1,2024-01-25T11:02:00-05:00"
+                    ]
+                }
+            }
+        }
+    ],
+    "title": "Current watches, warnings, and advisories for Indiana",
+    "updated": "2024-01-30T16:38:50+00:00"
+}

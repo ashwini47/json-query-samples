@@ -1,7 +1,9 @@
-# GitHub Codespaces ♥️ Jupyter Notebooks
+# JASON Query Sample  ♥️ Codespaces @ Jupyter Notebooks
 
-Welcome to your shiny new codespace! We've got everything fired up and running for you to explore Python and Jupyter notebooks.
+**Overview** 
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with what you're seeing right now - where you go from here is up to you!
+Json Query is an easy way to query data from complex json documents. purpose of this repo  is to provide a codespace to pay around with most commonly used JSON Query.
+Sample are based on jmespath lib  that has two version official and community , this repo is using community version of it 
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+**References** 
+https://github.com/jmespath-community/python-jmespath
